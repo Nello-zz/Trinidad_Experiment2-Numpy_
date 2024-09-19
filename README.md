@@ -1,41 +1,27 @@
-# EXPERIMENT 2: NUMERICAL PYTHON (NUMPY)
+## EXPERIMENT 2: NUMERICAL PYTHON (NUMPY)
 
-In this experiment, we are tasked with the following objectives:
-- Identify the functions and features available in the Numpy library.
-- Apply and utilize various Numpy functions in Python to solve problems.
+### Introduction
+In this experiment, we explore the Numpy library and its powerful array manipulation functions. The focus is on solving mathematical problems efficiently using Python. We will generate and manipulate arrays,   apply statistical functions, and practice saving and loading data with Numpy.
 
-We are given two problems to solve, and Jupyter Notebook will be used to write the code.
-
-### Problem 1: Normalization
-
-### Instructions:
-Create a random 5x5 ndarray and store it in the variable `X`.
-Normalize `X` using the z-score formula: 
-
-𝑍 = (𝑋 − 𝑥̅) / σ
-
-
-  Here, x̄ is the mean and σ is the standard deviation. In Python, you can calculate the mean and standard deviation element-wise using the `.mean()` and `.std()` functions, respectively.
+**Objectives**
+- Exploring Numpy functions.
+- Applying Numpy in Python to perform computations.
   
-- Save your normalized ndarray as `X_normalized.npy`.
+### Software Used
+- Jupyter Notebook
+- Numpy library
+  
+### Problem 1: Normalization
+- Generate a random 5x5 ndarray (X).
+- Normalize X using the z-score formula: Z = (X - mean) / std.
+- Save the result as X_normalized.npy.
 
 ### Problem 2: Divisible by 3
-
-### Instructions:
-Create a 10x10 ndarray containing the squares of the first 100 positive integers.
-Example:
-
-
-
-
-    𝐴 = [  1     4     ⋯   81    100 
-            ⋮      ⋮     ⋱     ⋮     ⋮
-            ⋮      ⋱     ⋮     ⋮     ⋮
-            ⋮      ⋮     ⋱     ⋮     ⋮    
-          8281  8464   ⋯   9801 10000]
- 
-
-From this array, find all the elements that are divisible by 3.
-Save the result as `div_by_3.npy`.
-
-
+- Create a 10x10 ndarray of squares of the first 100 integers.
+- Extract elements divisible by 3.
+- Save the result as div_by_3.npy.
+  
+### Troubleshooting
+- File Not Found: Make sure the files X_normalized.npy and div_by_3.npy are saved in the correct location.
+- Import Errors: Ensure Numpy is installed with pip install numpy.
+- Shape Mismatch: Check that the arrays have the right shape for operations.
